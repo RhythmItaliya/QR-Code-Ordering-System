@@ -1,4 +1,4 @@
-import type { AppProps } from 'next/app'
+import type {AppProps} from 'next/app'
 import '~/src/_homepage/styles/aboutSection.scss'
 import '~/src/_homepage/styles/contactUsSection.scss'
 import '~/src/_homepage/styles/featureSection.scss'
@@ -15,7 +15,7 @@ import '~/src/styles/globals.scss'
  * @param  {boolean} props.pageProps Page component props.
  * @return {Element}                 The App component.
  */
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({Component, pageProps}: AppProps) {
   return (
     <>
       <Component {...pageProps} />
