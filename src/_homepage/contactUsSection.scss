@@ -15,7 +15,9 @@
     h2 {
       width: fit-content;
       font-size: 32px;
-      font-variation-settings: 'wdth' 75, 'wght' 500;
+      font-variation-settings:
+        'wdth' 75,
+        'wght' 500;
       text-transform: uppercase;
       user-select: none;
       margin-bottom: 10px;
@@ -30,9 +32,11 @@
       }
     }
 
-    .front>p {
+    .front > p {
       font-size: 16px;
-      font-variation-settings: 'wdth' 75, 'wght' 300;
+      font-variation-settings:
+        'wdth' 75,
+        'wght' 300;
     }
 
     .contactAction {
@@ -63,7 +67,7 @@
 }
 
 @media (max-width: 900px) {
-  .contactSection .contactContent .front>p {
+  .contactSection .contactContent .front > p {
     font-size: 14px;
   }
 }
@@ -77,7 +81,7 @@
       width: 80%;
       align-items: center;
 
-      .front>p {
+      .front > p {
         text-align: center;
       }
     }
@@ -114,7 +118,9 @@
 }
 
 .contactSection .contactContent {
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 
   &.hidden {
     opacity: 0;

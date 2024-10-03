@@ -58,7 +58,7 @@ const LandingSection = () => {
 
   return (
     <section
-      className="landingSection"
+      className="landingSection mt-16"
       id={landingSection.sectionId}
       style={{filter: `blur(${blurBackground + blurOverlay}px)`}}
     >

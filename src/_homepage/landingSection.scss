@@ -118,19 +118,19 @@
   }
 }
 
-@media (width <= 1000px) {
+@media (width <=1000px) {
   .landingSection .landingGreeting {
     zoom: 0.9;
   }
 }
 
-@media (width <= 850px) {
+@media (width <=850px) {
   .landingSection .landingGreeting {
     zoom: 0.8;
   }
 }
 
-@media (width <= 700px) {
+@media (width <=700px) {
   .landingSection {
     .overlay {
       opacity: 0.5;
@@ -142,7 +142,7 @@
   }
 }
 
-@media (width <= 530px) {
+@media (width <=530px) {
   .landingSection {
     .coverBackground,
     .coverOverlay {
@@ -175,19 +175,19 @@
   }
 }
 
-@media (width <= 500px) {
+@media (width <=500px) {
   .landingSection .landingGreeting {
     zoom: 0.8;
   }
 }
 
-@media (width <= 380px) {
+@media (width <=380px) {
   .landingSection .landingGreeting {
     zoom: 0.7;
   }
 }
 
-@media (width <= 330px) {
+@media (width <=330px) {
   .landingSection .landingGreeting {
     zoom: 0.6;
   }

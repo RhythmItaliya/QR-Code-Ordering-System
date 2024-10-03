@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type {NextPage} from 'next'
 import dynamic from 'next/dynamic'
 import Header from '../components/Header'
 import Layout from '../components/Layout'

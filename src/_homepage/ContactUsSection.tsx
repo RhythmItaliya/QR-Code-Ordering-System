@@ -1,20 +1,20 @@
-import { useState } from 'react';
-import { Button, Lottie, Textfield } from 'xtreme-ui';
-import contactData from '../data/contactSection.json';
-import { getAnimSrc, scrollToSection } from '../utils/helper/common';
+import React, {useState} from 'react'
+import {Button, Lottie, Textfield} from 'xtreme-ui'
+import contactData from '../data/contactSection.json'
+import {getAnimSrc, scrollToSection} from '../utils/helper/common'
 
 const ContactSection: React.FC = () => {
-  const [showFront, setShowFront] = useState<boolean>(true);
-  const [email, setEmail] = useState<string>('');
-  const [emailShake, setEmailShake] = useState<boolean>(false);
+  const [showFront, setShowFront] = useState<boolean>(true)
+  const [email, setEmail] = useState<string>('')
+  const [emailShake, setEmailShake] = useState<boolean>(false)
 
   const toggleContent = () => {
-    setShowFront((prev) => !prev);
-  };
+    setShowFront((prev) => !prev)
+  }
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value);
-  };
+    setEmail(event.target.value)
+  }
 
   return (
     <section className="contactSection" id={contactData.sectionId}>
@@ -33,18 +33,18 @@ const ContactSection: React.FC = () => {
                 const buttonType =
                   button.type === 'primary' || button.type === 'secondary'
                     ? button.type
-                    : 'primary';
+                    : 'primary'
                 return (
                   <Button
                     key={index}
                     label={button.label}
                     type={buttonType}
                     onClick={() => {
-                      scrollToSection(button.target);
-                      toggleContent();
+                      scrollToSection(button.target)
+                      toggleContent()
                     }}
                   />
-                );
+                )
               })}
             </div>
           </div>
@@ -53,8 +53,8 @@ const ContactSection: React.FC = () => {
             <div className="mb-4 w-full">
               <Textfield
                 className={`email ${emailShake ? 'shake' : ''}`}
-                icon='f0e0'
-                placeholder='Enter your email'
+                icon="f0e0"
+                placeholder="Enter your email"
                 value={email}
                 onChange={handleEmailChange}
               />
@@ -66,10 +66,7 @@ const ContactSection: React.FC = () => {
               />
             </div>
             <div>
-              <Button
-                label='Submit'
-                onClick={toggleContent}
-              />
+              <Button label="Submit" onClick={toggleContent} />
             </div>
           </div>
         )}
@@ -77,13 +74,13 @@ const ContactSection: React.FC = () => {
 
       <div className="contactAnim">
         <Lottie
-          className='welcomeAnim'
+          className="welcomeAnim"
           src={getAnimSrc('Welcome')}
           speed={0.6}
         />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ContactSection;
+export default ContactSection

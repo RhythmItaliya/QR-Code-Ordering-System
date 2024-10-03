@@ -1,4 +1,4 @@
-import footerData from '../data/footerSection.json';
+import footerData from '../data/footerSection.json'
 
 const FooterSection = () => {
   return (
