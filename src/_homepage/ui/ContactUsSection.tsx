@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Button, Lottie, Textfield} from 'xtreme-ui'
+import {getAnimSrc, scrollToSection} from '../../utils/helper/common'
 import contactData from '../data/contactSection.json'
-import {getAnimSrc, scrollToSection} from '../utils/helper/common'
 
 const ContactSection: React.FC = () => {
   const [showFront, setShowFront] = useState<boolean>(true)

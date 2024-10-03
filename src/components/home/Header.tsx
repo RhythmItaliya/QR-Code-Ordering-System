@@ -1,7 +1,7 @@
 'use client'
 
 import Head from 'next/head'
-import Navbar from '../_homepage/Navbar'
+import Navbar from '../../_homepage/ui/Navbar'
 
 /**
  * Header component.

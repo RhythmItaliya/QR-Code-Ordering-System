@@ -1,7 +1,7 @@
 import {useState} from 'react'
+import {scrollToSection} from '../../utils/helper/common'
 import landingSection from '../data/landingSection.json'
 import navbarConfig from '../data/navbarConfig.json'
-import {scrollToSection} from '../utils/helper/common'
 
 /**
  * Navbar component for navigation.
@@ -10,7 +10,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(navbarConfig.initialMenuOpen)
 
   return (
-    <div className="homeNavbar" id={navbarConfig.sectionId}>
+    <div className="homeNavbar glass-background" id={navbarConfig.sectionId}>
       <button
         className="logo"
         onClick={() => scrollToSection(landingSection.sectionId)}

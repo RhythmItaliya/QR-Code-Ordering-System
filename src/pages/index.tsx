@@ -1,14 +1,14 @@
 import type {NextPage} from 'next'
 import dynamic from 'next/dynamic'
-import Header from '../components/Header'
-import Layout from '../components/Layout'
+import Layout from '../components/home/Layout'
 
-// Dynamically import the components with lazy loading
-const AboutSection = dynamic(() => import('../_homepage/AboutSection'))
-const FeatureSection = dynamic(() => import('../_homepage/FeatureSection'))
-const LandingSection = dynamic(() => import('../_homepage/LandingSection'))
-const ContactUsSection = dynamic(() => import('../_homepage/ContactUsSection'))
-const FooterSection = dynamic(() => import('../_homepage/FooterSection'))
+const LandingSection = dynamic(() => import('../_homepage/ui/LandingSection'))
+const AboutSection = dynamic(() => import('../_homepage/ui/AboutSection'))
+const FeatureSection = dynamic(() => import('../_homepage/ui/FeatureSection'))
+const ContactUsSection = dynamic(
+  () => import('../_homepage/ui/ContactUsSection')
+)
+
 /**
  * Homepage component.
  * @return {Element} The Homepage component.
@@ -16,12 +16,10 @@ const FooterSection = dynamic(() => import('../_homepage/FooterSection'))
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Header />
       <LandingSection />
       <AboutSection />
       <FeatureSection />
       <ContactUsSection />
-      <FooterSection />
     </Layout>
   )
 }

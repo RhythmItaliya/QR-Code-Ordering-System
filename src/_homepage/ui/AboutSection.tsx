@@ -1,6 +1,6 @@
 import {Button, Lottie} from 'xtreme-ui'
+import {getAnimSrc, scrollToSection} from '../../utils/helper/common'
 import aboutData from '../data/aboutSection.json'
-import {getAnimSrc, scrollToSection} from '../utils/helper/common'
 
 const AboutSection = () => {
   return (

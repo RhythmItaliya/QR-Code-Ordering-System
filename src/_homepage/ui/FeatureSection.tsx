@@ -1,5 +1,5 @@
 import {Lottie} from 'xtreme-ui'
-import {getAnimSrc} from '../utils/helper/common'
+import {getAnimSrc} from '../../utils/helper/common'
 
 const FeatureList = ({items}: {items: string[]}) => {
   const hues = Array(items.length)
