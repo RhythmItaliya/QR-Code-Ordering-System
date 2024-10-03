@@ -1,0 +1,26 @@
+{
+  "sectionId": "homepage",
+  "backgroundImage": "/backgrounds/landingCover.png",
+  "overlayImage": "/backgrounds/landingCoverOverlay.png",
+  "maxBlurPerImage": 30,
+  "maxOverlayTranslate": 0.3,
+  "content": {
+    "heading": "Revolutionizing",
+    "subHeading": "Dining Experience",
+    "descriptions": [
+      "Gone are the days of complex ordering systems and outdated paper menus.",
+      "It's time for the new normal, OrderWorder."
+    ],
+    "actions": [
+      {
+        "label": "Learn more",
+        "type": "secondary",
+        "onClick": "scrollToSection('homepage-aboutus')"
+      },
+      {
+        "label": "Order now",
+        "onClick": "/scan"
+      }
+    ]
+  }
+}

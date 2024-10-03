@@ -1,0 +1,23 @@
+{
+  "sectionId": "homepage-navBar",
+  "initialMenuOpen": false,
+  "navItems": [
+    {
+      "label": "About Us",
+      "id": "homepage-aboutus"
+    },
+    {
+      "label": "Features",
+      "id": "homepage-features"
+    },
+    {
+      "label": "Pricing",
+      "id": "homepage-pricing"
+    },
+    {
+      "label": "Contact",
+      "id": "homepage-contact"
+    }
+  ],
+  "logoText": "ORDER WORDER"
+}

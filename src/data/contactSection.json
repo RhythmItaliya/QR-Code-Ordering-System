@@ -1,0 +1,15 @@
+{
+    "sectionId": "homepage-contact",
+    "title": "Get In Touch",
+    "paragraphs": [
+        "We'd love to hear from you! Whether you have a question about our services, pricing, or anything else, our team is ready to answer all your questions.",
+        "You can reach us through the contact form below or by directly contacting our support team via email or phone."
+    ],
+    "buttons": [
+        {
+            "label": "Contact Us",
+            "type": "primary",
+            "target": "contact-form"
+        }
+    ]
+}

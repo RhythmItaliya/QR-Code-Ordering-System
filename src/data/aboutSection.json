@@ -1,0 +1,20 @@
+{
+  "sectionId": "homepage-aboutus",
+  "title": "About us",
+  "paragraphs": [
+    "We are a team of highly motivated revolutionaries, dedicated towards revolutionizing the restaurant industry by transforming the way your customers order at your restaurant - by going contactless and paperless.",
+    "It's time to bridge the gap between your customers and your kitchen, in an efficient, proficient and affordable way, with us."
+  ],
+  "buttons": [
+    {
+      "label": "Learn more",
+      "target": "homepage-features",
+      "type": "primary"
+    },
+    {
+      "label": "Why us?",
+      "target": "homepage-features",
+      "type": "secondary"
+    }
+  ]
+}
