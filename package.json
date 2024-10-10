@@ -25,15 +25,23 @@
     "lint": "npm run format && npm run lint:js && npm run lint:css && npm run lint:md && npm run type-check"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.9.0",
     "next": "14.2.13",
+    "next-auth": "^4.24.8",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-qr-reader": "^3.0.0-beta-1",
     "react-toastify": "^10.0.5",
     "sass": "^1.79.4",
+    "swr": "^2.2.5",
     "xtreme-ui": "^0.0.82"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/lodash": "^4.17.10",
+    "@types/mongoose": "^5.11.96",
     "@types/node": "^22.7.4",
     "@types/react": "^18.3.10",
     "autoprefixer": "^10.4.20",

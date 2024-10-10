@@ -1,7 +1,7 @@
 import type {NextPage} from 'next'
 import dynamic from 'next/dynamic'
 
-const LandingSection = dynamic(() => import('../scan/page'))
+const ScanPage = dynamic(() => import('../scan/page'))
 
 /**
  * scanpage component.
@@ -10,7 +10,7 @@ const LandingSection = dynamic(() => import('../scan/page'))
 const scan: NextPage = () => {
   return (
     <>
-      <LandingSection />
+      <ScanPage />
     </>
   )
 }

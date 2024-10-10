@@ -1,0 +1,52 @@
+{
+    "sectionId": "pricing",
+    "content": {
+        "heading": "Our Pricing Plans",
+        "subHeading": "Choose a plan that fits your needs",
+        "plans": [
+            {
+                "name": "Basic",
+                "price": "$19/month",
+                "features": [
+                    "Feature 1",
+                    "Feature 2",
+                    "Feature 3"
+                ],
+                "action": {
+                    "label": "Get Started",
+                    "onClick": "/signup",
+                    "type": "primary"
+                }
+            },
+            {
+                "name": "Pro",
+                "price": "$49/month",
+                "features": [
+                    "Feature 1",
+                    "Feature 2",
+                    "Feature 3",
+                    "Feature 4"
+                ],
+                "action": {
+                    "label": "Get Started",
+                    "onClick": "/signup",
+                    "type": "primary"
+                }
+            },
+            {
+                "name": "Enterprise",
+                "price": "Contact us",
+                "features": [
+                    "All features",
+                    "Dedicated support",
+                    "Custom integrations"
+                ],
+                "action": {
+                    "label": "Contact Sales",
+                    "onClick": "/contact",
+                    "type": "secondary"
+                }
+            }
+        ]
+    }
+}

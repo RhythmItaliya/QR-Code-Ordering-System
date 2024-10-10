@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
-import {Button, Lottie, Textfield} from 'xtreme-ui'
-import {getAnimSrc, scrollToSection} from '../../utils/helper/common'
+import React, { useState } from 'react'
+import { Button, Lottie, Textfield } from 'xtreme-ui'
+import { getAnimSrc, scrollToSection } from '../../utils/helper/common'
 import contactData from '../data/contactSection.json'
 
 const ContactSection: React.FC = () => {

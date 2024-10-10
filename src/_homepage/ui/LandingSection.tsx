@@ -1,4 +1,4 @@
-import {useRouter} from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import {
   Dispatch,
   MouseEvent,
@@ -7,10 +7,13 @@ import {
   useRef,
   useState
 } from 'react'
-import {Button} from 'xtreme-ui'
-import {scrollToSection} from '../../utils/helper/common'
+import { Button } from 'xtreme-ui'
+import { scrollToSection } from '../../utils/helper/common'
 import landingSection from '../data/landingSection.json'
 
+/**
+ * LandingSection component.
+ */
 const LandingSection = () => {
   const router = useRouter()
   const ref = useRef<HTMLDivElement>(null)
@@ -60,17 +63,17 @@ const LandingSection = () => {
     <section
       className="landingSection"
       id={landingSection.sectionId}
-      style={{filter: `blur(${blurBackground + blurOverlay}px)`}}
+      style={{ filter: `blur(${blurBackground + blurOverlay}px)` }}
     >
       <div
         className="coverBackground"
-        style={{backgroundImage: `url(${landingSection.backgroundImage})`}}
+        style={{ backgroundImage: `url(${landingSection.backgroundImage})` }}
       />
       <div
         ref={ref}
         className="coverOverlay"
         onMouseMove={onMouseMove}
-        style={{backgroundImage: `url(${landingSection.overlayImage})`}}
+        style={{ backgroundImage: `url(${landingSection.overlayImage})` }}
       />
       <div className="overlay" />
       <div className="landingGreeting">
